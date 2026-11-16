@@ -57,9 +57,8 @@ export default function AboutPage() {
             </h1>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mt-8">
               <p>
-                A ghostwriter writes under someone else&apos;s name. We build websites the same way. {BRAND.short} is
-                the fulfillment team behind agency-branded websites for small businesses. You sell and own the client
-                relationship. We design, build, host, and maintain the site behind the scenes.
+                {BRAND.short} is the fulfillment team behind agency-branded websites for small businesses. You sell and
+                own the client relationship. We design, build, host, and maintain the site behind the scenes.
               </p>
             </div>
             <Button size="lg" className="mt-10" asChild>
@@ -68,6 +67,24 @@ export default function AboutPage() {
             <Button size="lg" variant="outline" className="mt-10 ml-4 bg-transparent" asChild>
               <Link href="/portfolio">See the Work</Link>
             </Button>
+          </Reveal>
+        </section>
+
+        {/* Why Ghostwright */}
+        <section className="container pb-20 md:pb-28">
+          <Reveal as="div" className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold tracking-tighter mb-6 text-primary">Why Ghostwright?</h2>
+            <div className="space-y-6 text-xl text-muted-foreground leading-relaxed">
+              <p>
+                Ghost is how we work. We build and maintain the site behind your brand, so your clients only ever see
+                your name.
+              </p>
+              <p>
+                Wright is the old word for a skilled maker, as in wheelwright or shipwright: someone who builds things
+                by hand. That&apos;s how we build websites, from scratch, with no templates.
+              </p>
+              <p>It&apos;s also a small pun. We&apos;re a wright, and we do things right.</p>
+            </div>
           </Reveal>
         </section>
 

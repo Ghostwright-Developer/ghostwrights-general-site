@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/partner-service-agreement/" },
   title: `Partner Service Agreement | ${BRAND.short}`,
   description:
-    "Read, sign, and return Partner Service Agreement version 1.1. We confirm receipt in writing before work begins or your intake form is activated.",
+    "Read, sign, and return Partner Service Agreement version 1.2. We confirm receipt in writing before work begins or your intake form is activated.",
   openGraph: {
     url: "/partner-service-agreement/",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Ghostwright Web Development. Websites built under your name." }],
     title: `Partner Service Agreement | ${BRAND.short}`,
     description:
-      "Read, sign, and return Partner Service Agreement version 1.1. We confirm receipt in writing before work begins or your intake form is activated.",
+      "Read, sign, and return Partner Service Agreement version 1.2. We confirm receipt in writing before work begins or your intake form is activated.",
   },
 }
 
@@ -70,7 +70,8 @@ const terms = [
   },
   {
     topic: "Revisions",
-    summary: "Two rounds, 3-business-day turnaround, $75 per extra round.",
+    summary:
+      "Two rounds, 3-business-day turnaround, $75 per extra round. A round can include big changes, like adding or removing images or services.",
   },
   {
     topic: "Edits",
@@ -107,6 +108,11 @@ const terms = [
     summary: "While the agreement is in effect, we never solicit, market to, or upsell your clients.",
   },
   {
+    topic: "Portfolio",
+    summary:
+      "We may show a site, with a link, and the client's business name and logo in our portfolio. You can withdraw permission at any time by written notice.",
+  },
+  {
     topic: "Communication options",
     summary:
       "Fully white-label (default), or we work with your clients directly as your web team from an email address on your domain. Change any time by written notice.",
@@ -122,7 +128,7 @@ const terms = [
   },
   {
     topic: "Buyout",
-    summary: "Active site: any time. Cancelled site: within 30 days of your cancellation notice. See the agreement.",
+    summary: "Active site: any time. Cancelled site: within 30 days of your cancellation notice. Pricing is in the agreement.",
   },
   {
     topic: "Fee changes",
@@ -150,11 +156,11 @@ export default function PartnerServiceAgreementPage() {
             <div className="mt-8">
               <Button size="lg" asChild>
                 <a
-                  href="/partner-service-agreement.pdf?v=1.1"
+                  href="/partner-service-agreement-v1.2.pdf"
                   download
-                  aria-label="Download the Partner Service Agreement version 1.1 PDF"
+                  aria-label="Download the Partner Service Agreement version 1.2 PDF"
                 >
-                  Download the Partner Service Agreement v1.1 (PDF) <Download className="ml-2 h-4 w-4" />
+                  Download the Partner Service Agreement v1.2 (PDF) <Download className="ml-2 h-4 w-4" />
                 </a>
               </Button>
             </div>
@@ -241,11 +247,11 @@ export default function PartnerServiceAgreementPage() {
           <Reveal as="div" className="max-w-3xl mx-auto text-center">
             <Button size="lg" asChild>
               <a
-                href="/partner-service-agreement.pdf?v=1.1"
+                href="/partner-service-agreement-v1.2.pdf"
                 download
-                aria-label="Download the Partner Service Agreement version 1.1 PDF"
+                aria-label="Download the Partner Service Agreement version 1.2 PDF"
               >
-                Download the Partner Service Agreement v1.1 (PDF) <Download className="ml-2 h-4 w-4" />
+                Download the Partner Service Agreement v1.2 (PDF) <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>
           </Reveal>
