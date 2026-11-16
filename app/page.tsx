@@ -4,7 +4,7 @@ import { BRAND } from "@/lib/brand"
 
 const title = `White-Label Websites for Agencies | ${BRAND.short}`
 const description =
-  "Add custom-coded websites to your client offering. Ghostwright builds, hosts, and maintains them under your brand: $149 setup per site, then $25/month."
+  "Add custom-coded websites to your client offering. Ghostwright builds, hosts, and maintains them under your brand: $150 setup per site, then $25/month."
 
 export const metadata: Metadata = {
   title,
